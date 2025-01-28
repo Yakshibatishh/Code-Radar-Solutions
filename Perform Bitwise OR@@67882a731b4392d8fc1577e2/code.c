@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b,bitwise_operation;
+    int a,b;
     scanf("%d %d",&a,&b);
-    bitwise_operation=a|b;
     printf("a|b=%u");
 }
