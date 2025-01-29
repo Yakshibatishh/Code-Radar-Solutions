@@ -2,6 +2,6 @@
 int main(){
     int a;
     scanf("%d",a);
-    result=a~;
+    result=~a;
     printf("%d",result);
 }
