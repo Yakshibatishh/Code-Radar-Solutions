@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a,b,bitwise_or;
     scanf("%d %d",&a,&b);
-    if(a&b){
-        printf("%d",&a<&b);
-    }
+    bitwise_or=a<<b;
+    printf("%d",bitwise_or)
+     }
 }
