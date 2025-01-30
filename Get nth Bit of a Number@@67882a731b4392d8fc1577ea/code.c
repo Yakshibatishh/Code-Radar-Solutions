@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,num,value;
-    scanf("%d",&a,&num);
-    value=num&&(1<<31);
+    int a,n,value;
+    scanf("%d",&a,&n);
+    value=(n&(1<<n-1));
     printf("%d",value);
+    }
 
-}
