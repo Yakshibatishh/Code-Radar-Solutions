@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,value;
-    scanf("%d %d",&a);
-    value=((a &~(1<<a)));
+    int a,b,value;
+    scanf("%d %d",&a,&b);
+    value=((a &~(1<<b)));
     printf("value");
 
 }
