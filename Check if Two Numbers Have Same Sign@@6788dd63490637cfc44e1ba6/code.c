@@ -6,7 +6,7 @@ int main() {
         printf("Same sign");
     }
     else if(a<0 && b<0){
-        printf("same Sign");
+        printf("Same Sign");
     }
     else if(a>0 && b<0){
         printf("Different Sign");
