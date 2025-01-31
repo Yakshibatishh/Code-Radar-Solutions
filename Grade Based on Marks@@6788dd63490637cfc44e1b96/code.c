@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(){
-    int A,B,C,D,F;
-    scanf("%d",&a,&b,&c,&d,&f);
-    if(A>=90){
+    int N;
+    scanf("%d",N);
+    if(N>=90){
         printf("A");
     }
-    else if(B>=80 && B<90){
+    else if(N>=80 && N<90){
         printf("B");
     }
-    else if(C>=70 && C<80){
+    else if(N>=70 && N<80){
         printf("C");
     }
-    else if(D>=60 && c<70){
+    else if(N>=60 && N<70){
         printf("D");
     }
     else{
