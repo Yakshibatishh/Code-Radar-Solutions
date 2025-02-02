@@ -7,8 +7,8 @@ int main(){
         printf("32");
         return 0;
     }
-    while((x&1)==0){
-        count ++;
+    while((x & 1) == 0){
+        count++;
         x=x>>1;
     }
     printf("%d",count);
