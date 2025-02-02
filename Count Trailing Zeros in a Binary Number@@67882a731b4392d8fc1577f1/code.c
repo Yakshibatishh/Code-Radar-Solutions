@@ -2,7 +2,7 @@
 int main(){
     int x,count;
     count=0;
-    scanf("%,&x");
+    scanf("%d",&x);
     if(x==0){
         printf("32");
         return 0;
