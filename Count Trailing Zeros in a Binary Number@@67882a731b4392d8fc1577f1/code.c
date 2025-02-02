@@ -10,5 +10,5 @@ int main(){
         count ++;
         x=x>>1;
     }
-    printf("%d",count)
+    printf("%d",count);
 }
