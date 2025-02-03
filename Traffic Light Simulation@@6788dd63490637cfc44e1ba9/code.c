@@ -9,7 +9,7 @@ int main() {
     printf("Slow Down");
    }
    else(a=="Y"){
-    printf("Invalid input")
+    printf("Invalid input");
    }
     return 0;
 }
