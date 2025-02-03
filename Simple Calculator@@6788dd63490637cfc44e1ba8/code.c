@@ -4,6 +4,7 @@ int main(){
     char ch;
     scanf("%d %d %ch",&a,&b,&ch);
     int addition,substraction,multiplication,division;
+    scanf("%c",&0)
     switch(0){
         case'+':{
             addition=a+b;
