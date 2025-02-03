@@ -2,17 +2,17 @@
 int main(){
     int a,b;
     char ch;
-    scanf("%i %i %c",&a,&b,&ch);
+    scanf("%d %d %c",&a,&b,&ch);
     if(ch=='+'){
-        printf("%i",a+b);
+        printf("%d",a+b);
     }
     else if(ch=='-'){
-        printf("%i",a-b);
+        printf("%d",a-b);
     }
     else if(ch=='*'){
-        printf("%i",a*b);
+        printf("%d",a*b);
     }
     else(ch=='/'){
-        printf("%i",a/b);
+        printf("%d",a/b);
     }
 }
