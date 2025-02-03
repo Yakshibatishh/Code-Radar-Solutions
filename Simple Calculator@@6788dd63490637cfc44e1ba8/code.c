@@ -7,7 +7,7 @@ int main(){
     switch(0){
         case'+':{
             addition=a+b;
-            printf(%d\n,addition);
+            printf("%d\n",addition);
             break;
         }
     }
