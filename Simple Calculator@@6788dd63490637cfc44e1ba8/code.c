@@ -10,6 +10,11 @@ int main(){
             printf("%d\n",addition);
             break;
         }
+        case'-':{
+            subtration=a-b;
+            printf("%d\n",substraction);
+            break;
+        }
     }
 
 }
