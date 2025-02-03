@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main(){
-    int i;
-    scanf("%d",&i);
-    if(i==A){
+    int a;
+    scanf("%d",&a);
+    if(a==A){
         printf("Excellent");
     }
-    else if(i==B){
+    else if(a==B){
         printf("Good");
     }
-    else if(i==C){
+    else if(a==C){
         printf("Average");
     }
-    else if(i==D){
+    else if(a==D){
         printf("Below Average");
     }
-    else if(i==F){
+    else if(a==F){
         printf("Fail");
     }
     else{
