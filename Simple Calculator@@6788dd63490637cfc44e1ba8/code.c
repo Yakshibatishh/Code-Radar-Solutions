@@ -2,7 +2,7 @@
 int main(){
     float a,b,s;
     char ch;
-    scanf("%f%f%c",&a,&b, &ch);
+    scanf("%f %f%c",&a,&b, &ch);
     if(ch=='+'){
         s=a+b;
         printf("%f",s);
@@ -17,7 +17,7 @@ int main(){
     }
     else if(ch=='/'){
         s=a/b;
-        printf("%f",s);
+        printf(".2%f",s);
     }
     else{
         printf("error");
