@@ -1,7 +1,10 @@
 #include <stdio.h>
 int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    a=a|(1<<b);
-    printf("%d",num);
-}
+   int a,count=0;
+   scanf("%d",&count);
+   while((a&1)==0 && a!=0){
+    a>>=1;
+    count++;}
+    printf("%d\n",count);
+    return 0;
+    }
