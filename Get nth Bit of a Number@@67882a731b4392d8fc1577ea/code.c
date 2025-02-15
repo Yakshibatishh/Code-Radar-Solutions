@@ -2,5 +2,5 @@
 int main(){
     int a,n;
     scanf("%d %d",&a,&n);
-    printf("%d",a^(1<<k));
+    printf("%d",(a>>n)&1);
     return 0;}
